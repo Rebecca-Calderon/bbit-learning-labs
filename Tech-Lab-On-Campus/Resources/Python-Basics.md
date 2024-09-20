@@ -39,7 +39,7 @@ class Dog(DogInterface):
 We can access the name initialized in the `__init__` method with `self`. When we want to create an object of this class with a name and call the method, `bark()`, it can access the name given and print out the statement. Remember, this is an example. You can initialize more variables within any of the class methods and access it through `self`!
 
 ## Creating an Interface
-Python does not have a keyword for interfaces. An interface is an abstract class that defines methods which are not implemented. An interface is implemented in the same way as a class, however, an interface will have abstract methods so you will see the keyword `pass` in those methods. That means that any subclass will construct those methods how it wants to use them. So two different classes which inherit from the same intergace will inherit the same functions, but can have different implementations.
+Python does not have a keyword for interfaces. An interface is an abstract class that defines methods which are not implemented. An interface is implemented in the same way as a class, however, an interface will have abstract methods so you will see the keyword `pass` in those methods. That means that any subclass will construct those methods how it wants to use them. So two different classes which inherit from the same interface will inherit the same functions, but can have different implementations.
 Here is an example of a simple interface:
 ```sh
 class DogInterface:
